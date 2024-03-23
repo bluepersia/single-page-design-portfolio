@@ -46,3 +46,47 @@ h3  {
     margin-bottom: 0;
 }
 
+
+.btn-1 
+{
+    line-height: 1.75em;
+    font-size: inherit;
+    font-family: inherit;
+    padding: .875em 2.8125em;
+    border-radius: 2em;
+    color: var(--color-9);
+    border:none;
+    transition: background-color 300ms;
+    cursor: pointer;
+}
+
+.btn-1--black {
+    background-color: var(--color-7);
+}
+
+.btn-2--red {
+    background-color: var(--color-4);
+}
+
+.btn-2--red:hover 
+{
+    background-color:var(--color-2) ;
+}
+
+
+.btn-2 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.5em 1.56em;
+    background-color: var(--color-7);
+    border-radius: 50%;
+    border:none;
+    transition: background-color 300ms;
+    cursor: pointer;
+}
+
+.btn-1--black:hover, .btn-2:hover {
+    background-color: var(--color-1);
+}
