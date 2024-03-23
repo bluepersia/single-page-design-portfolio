@@ -43,3 +43,6 @@ function renderSlider ()
  
     //slider_imgs.style.left = `calc(13.8% - ${(sliderIndex * imgWidth) + (16 * sliderIndex)}px)`;
 }
+
+
+renderSlider ();
